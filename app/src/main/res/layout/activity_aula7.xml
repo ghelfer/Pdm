@@ -21,4 +21,11 @@
         android:onClick="ExercicioClick"
         android:text="Exercicio" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="Aula72Click"
+        android:text="Exemplo 72" />
+
 </LinearLayout>

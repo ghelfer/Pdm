@@ -31,6 +31,8 @@ public class Aula5SlidesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_aula5_slides);
 
         categoria1 = findViewById(R.id.categoria1);
+
+
         ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this, R.array.categoria_gasto,
                 R.layout.meu_spinner_item);
         categoria1.setAdapter(adapter1);
@@ -65,13 +67,13 @@ public class Aula5SlidesActivity extends AppCompatActivity {
         });
 
         listView = findViewById(R.id.listView);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, Arrays.asList(gastos));
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.simple_meu_item_1, Arrays.asList(gastos));
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String valor = gastos[i];
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                String valor = gastos[position];
                 Toast.makeText(getApplicationContext(),"clicado: " + valor, Toast.LENGTH_SHORT).show();
             }
         });

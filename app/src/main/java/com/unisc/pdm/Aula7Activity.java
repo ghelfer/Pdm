@@ -22,4 +22,8 @@ public class Aula7Activity extends AppCompatActivity {
     public void ExercicioClick(View view) {
         startActivity(new Intent(this, Aula71Activity.class));
     }
+
+    public void Aula72Click(View view) {
+        startActivity(new Intent(this, TrabalhoActivity.class));
+    }
 }
