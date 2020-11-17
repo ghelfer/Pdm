@@ -26,6 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:onClick="Aula72Click"
-        android:text="Exemplo 72" />
+        android:text="Trabalho 2020/2" />
 
 </LinearLayout>
