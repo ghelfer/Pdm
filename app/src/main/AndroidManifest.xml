@@ -26,7 +26,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TrabalhoActivity"/>
+        <activity android:name=".Aula7Ex2Activity"></activity>
+        <activity android:name=".TrabalhoActivity" />
         <activity android:name=".Aula12Activity" />
         <activity android:name=".Aula11Activity" />
         <activity android:name=".Aula8ExActivity" />
